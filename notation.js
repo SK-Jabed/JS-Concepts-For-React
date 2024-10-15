@@ -14,8 +14,8 @@ const prof1 = person.profession;
 const prof2 = person["profession"];
 const pName = "profession";
 const prof3 = person[pName];
-// console.log(prof3);
+console.log(prof3);
 
 const season = person[25];
-// console.log(season);
+console.log(season);
 const son = person["son-name"];

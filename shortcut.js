@@ -1,4 +1,4 @@
-// "almas", 5, true, {}, []
+// "CR7", 5, true, {}, []
 // "", 0, false, null, undefined
 // check truthy
 let myVar = 5;
@@ -9,6 +9,7 @@ if (myVar) {
 else {
     myVar = 0;
 }
+
 
 let myMoney = 50;
 // you check negative or falsy anything
@@ -25,7 +26,7 @@ else {
     food = "cha biscuit";
 }
 
-// ternary
+// Ternary
 let food1 = money > 100 ? "biryani" : "cha biscuit";
 // console.log(food1);
 
@@ -43,7 +44,8 @@ const input = "560";
 const inputNum = +input;
 // console.log(inputNum);
 
-// 
+
+
 let isActive = true;
 const showUser = () => console.log("display User");
 const hideUser = () => console.log("hide User");
