@@ -1,5 +1,5 @@
-// 'almas', 5, true, {}, []
-// '', 0, false, null, undefined
+// "almas", 5, true, {}, []
+// "", 0, false, null, undefined
 // check truthy
 let myVar = 5;
 // check any truthy 
@@ -19,34 +19,34 @@ if (!myMoney) {
 const money = 800;
 let food;
 if (money > 100) {
-    food = 'biryani';
+    food = "biryani";
 }
 else {
-    food = 'cha biscuit';
+    food = "cha biscuit";
 }
 
 // ternary
-let food1 = money > 100 ? 'biryani' : 'cha biscuit';
+let food1 = money > 100 ? "biryani" : "cha biscuit";
 // console.log(food1);
 
-let drink = (money > 100 && myVar > 100) ? 'coke' : 'filter water';
+let drink = (money > 100 && myVar > 100) ? "coke" : "filter water";
 // console.log(drink);
 
 // number to string conversion
 const num1 = 52;
 // console.log(num1);
-const numStr = num1 + '';
+const numStr = num1 + "";
 // console.log(numStr)
 
 // string to number
-const input = '560';
+const input = "560";
 const inputNum = +input;
 // console.log(inputNum);
 
 // 
 let isActive = true;
-const showUser = () => console.log('display User');
-const hideUser = () => console.log('hide User');
+const showUser = () => console.log("display User");
+const hideUser = () => console.log("hide User");
 // isActive ? showUser() : hideUser();
 // use && if the left side is true then right side will be executed
 isActive && showUser();

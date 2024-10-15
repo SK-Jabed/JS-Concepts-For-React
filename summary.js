@@ -48,8 +48,8 @@ const obj = {
 // shortchut
 const obj1 = { x, y }
 
-const name = 'Solimullah';
-const area = 'Dhaka';
+const name = "Solimullah";
+const area = "Dhaka";
 
 const nobab = {
     name: name,
